@@ -1,0 +1,69 @@
+.emptyFrame,
+.s {
+  position: relative;
+  display: inline-block;
+}
+.emptyFrame {
+  width: 78px;
+}
+.s {
+  height: 38px;
+  color: var(--color-red);
+}
+.pollQuizFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+.frameChild {
+  height: 32.9px;
+  width: 188px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-forestgreen-100);
+  display: none;
+}
+.submit {
+  height: 30px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.pollQuiz,
+.rectangleParent {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xs) 59px var(--padding-12xs) var(--padding-38xl);
+  background-color: var(--color-forestgreen-100);
+  height: 33px;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  justify-content: center;
+}
+.pollQuiz {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) var(--padding-xl) var(--padding-120xl);
+  gap: var(--gap-41xl);
+}

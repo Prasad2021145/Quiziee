@@ -1,0 +1,414 @@
+.quizQuestionFrameChild {
+  width: 1087px;
+  height: 832px;
+  position: relative;
+  background-color: var(--color-whitesmoke-400);
+  display: none;
+  max-width: 100%;
+}
+.q1QuestionPlace,
+.quiz2Question {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.quiz2Question {
+  height: 60px;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+}
+.q1QuestionPlace {
+  height: 36px;
+  flex: 1;
+  font-weight: 500;
+}
+.qQuestionAnalysis {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-black);
+}
+.frameChild {
+  height: 89px;
+  width: 174px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.option1,
+.optionSemicolon {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.optionSemicolon {
+  height: 45px;
+  display: inline-block;
+}
+.option1 {
+  font-size: var(--font-size-sm);
+}
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-21xl) var(--padding-3xl)
+    var(--padding-lg);
+  gap: var(--gap-mid);
+  z-index: 1;
+}
+.frameItem {
+  height: 89px;
+  width: 174px;
+  position: relative;
+  display: none;
+}
+.div,
+.option2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.div {
+  height: 45px;
+  display: inline-block;
+}
+.option2 {
+  font-size: var(--font-size-sm);
+}
+.frameInner,
+.rectangleGroup {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+}
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-18xl) var(--padding-3xl)
+    var(--padding-lg);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frameInner {
+  height: 89px;
+  width: 174px;
+  position: relative;
+  display: none;
+}
+.div1,
+.option3 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.div1 {
+  height: 45px;
+  display: inline-block;
+}
+.option3 {
+  font-size: var(--font-size-sm);
+}
+.rectangleContainer {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-18xl) var(--padding-3xl)
+    var(--padding-lg);
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.frameParent {
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.frameParent,
+.groupOptionPane,
+.optionLabels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.groupOptionPane {
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+  color: var(--color-darkslategray);
+}
+.optionLabels {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xl);
+}
+.createdOn,
+.impressions667 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.createdOn04Sep2023Parent,
+.questionImpressions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.questionImpressions {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.rectangleDiv {
+  height: 89px;
+  width: 174px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.div2,
+.option4 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.div2 {
+  height: 45px;
+  display: inline-block;
+}
+.option4 {
+  font-size: var(--font-size-sm);
+}
+.groupDiv {
+  width: 174px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-3xl) var(--padding-17xl) var(--padding-3xl)
+    var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+}
+.questionGroupFrames,
+.questionImpressionsParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.questionImpressionsParent {
+  width: 343px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 110px;
+  margin-left: -216px;
+  font-size: var(--font-size-mini);
+  color: var(--color-orangered);
+}
+.questionGroupFrames {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.vectorIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: clip;
+  max-height: unset;
+  z-index: 1;
+}
+.groupLabelInner {
+  width: 832px;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.groupLabel,
+.vectorFrameIcon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.groupLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+}
+.vectorFrameIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.frameGroup {
+  width: 828px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+}
+.quizAnalysisGroup,
+.quizQuestionFrameInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.quizQuestionFrameInner {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.quizAnalysisGroup {
+  padding: 0 var(--padding-4xs);
+}
+.questionFrame,
+.quizAnalysisGroup,
+.quizQuestionFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.quizQuestionFrame {
+  flex: 1;
+  background-color: var(--color-whitesmoke-400);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-38xl) var(--padding-27xl) var(--padding-12xl)
+    var(--padding-60xl);
+  box-sizing: border-box;
+  gap: var(--gap-34xl);
+  max-width: calc(100% - 193px);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-royalblue);
+  font-family: var(--font-poppins);
+}
+.questionFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.createQuizButton {
+  width: 1107px;
+  height: 832px;
+  position: relative;
+  background-color: var(--color-whitesmoke-400);
+  max-width: 100%;
+}
+.questionWisePollTypeQuesti {
+  width: 100%;
+  height: 832px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-150xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .quizQuestionFrame {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .quiz2Question {
+    font-size: var(--font-size-13xl);
+  }
+  .div,
+  .div1,
+  .div2,
+  .optionSemicolon,
+  .q1QuestionPlace {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .groupLabel {
+    gap: var(--gap-lg);
+  }
+  .quizQuestionFrame {
+    gap: var(--gap-7xl);
+    padding-top: var(--padding-18xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .questionFrame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .questionWisePollTypeQuesti {
+    height: auto;
+    gap: var(--gap-65xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .quiz2Question {
+    font-size: var(--font-size-5xl);
+  }
+  .div,
+  .div1,
+  .optionSemicolon,
+  .q1QuestionPlace {
+    font-size: var(--font-size-lg);
+  }
+  .optionLabels {
+    gap: var(--gap-mini);
+  }
+  .div2 {
+    font-size: var(--font-size-lg);
+  }
+  .questionImpressionsParent {
+    gap: 55px;
+  }
+  .frameGroup {
+    gap: var(--gap-lg);
+  }
+  .questionWisePollTypeQuesti {
+    gap: var(--gap-23xl);
+  }
+}

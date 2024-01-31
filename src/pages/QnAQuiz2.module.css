@@ -1,0 +1,52 @@
+.congratsQuizIs {
+  align-self: stretch;
+  height: 120px;
+  position: relative;
+  display: inline-block;
+}
+.image2Icon {
+  width: 320px;
+  height: 323px;
+  position: relative;
+  object-fit: cover;
+}
+.answerFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+.span {
+  color: var(--color-forestgreen-100);
+}
+.yourScoreIsContainer {
+  width: 360px;
+  height: 120px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 700;
+  font-family: var(--font-poppins);
+  text-align: center;
+  display: inline-block;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+  color: var(--color-darkslategray);
+}
+.qnaQuiz {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-76xl) 0 161px;
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+}

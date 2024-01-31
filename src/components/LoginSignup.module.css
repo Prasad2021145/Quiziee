@@ -1,0 +1,298 @@
+.frameChild,
+.loginSignupChild {
+  height: 832px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+  max-width: 100%;
+}
+.frameChild {
+  width: 1066px;
+  height: 611px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+.quizzie {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.quizzieWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-lgi);
+}
+.signUp {
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frameItem {
+  height: 37px;
+  width: 217px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 50px rgba(0, 26, 255, 0.24);
+  display: none;
+}
+.logIn {
+  height: 30px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-60xl) var(--padding-10xs)
+    var(--padding-59xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-3xs);
+  box-shadow: 0 0 50px rgba(0, 26, 255, 0.24);
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-gainsboro);
+}
+.frameParent,
+.rectangleGroup,
+.signUpParent {
+  display: flex;
+  align-items: center;
+}
+.signUpParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+}
+.frameParent {
+  width: 410px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 27px;
+  max-width: 100%;
+}
+.email,
+.passwordRectangle {
+  position: relative;
+  z-index: 2;
+}
+.email {
+  width: 53px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 30px;
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+}
+.passwordRectangle {
+  height: 38px;
+  flex: 1;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--color-whitesmoke-100);
+  min-width: 252px;
+  max-width: 100%;
+}
+.emailPassword {
+  width: 476px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+}
+.password {
+  width: 96px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 30px;
+  position: relative;
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.emailPasswordChild {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--color-whitesmoke-100);
+  min-width: 252px;
+  max-width: 100%;
+  z-index: 2;
+}
+.emailPassword1,
+.emailPasswordParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.emailPassword1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-15xl);
+}
+.emailPasswordParent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-12xl);
+}
+.frameInner {
+  height: 38px;
+  width: 274px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-cornflowerblue-100);
+  display: none;
+}
+.logIn1 {
+  height: 30px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  z-index: 3;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs);
+  background-color: var(--color-cornflowerblue-100);
+  flex: 1;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangleContainer:hover {
+  background-color: var(--color-cornflowerblue-200);
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  width: 298px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+}
+.frameGroup {
+  width: 518px;
+  flex-direction: column;
+  align-items: center;
+  gap: 59px;
+  max-width: 100%;
+}
+.loginSignup,
+.rectangleParent {
+  display: flex;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  width: 1066px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-22xl) var(--padding-22xl) 115px;
+  gap: 87px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-jomhuria);
+}
+.loginSignup {
+  width: 1280px;
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-76xl) var(--padding-19xl) var(--padding-107xl)
+    var(--padding-xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .quizzie {
+    font-size: var(--font-size-31xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .emailPassword,
+  .emailPassword1 {
+    gap: var(--gap-mid);
+  }
+  .emailPasswordParent {
+    gap: var(--gap-mini);
+  }
+  .frameGroup {
+    gap: var(--gap-10xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-24xl);
+    padding-top: var(--padding-8xl);
+    padding-bottom: 75px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quizzie {
+    font-size: var(--font-size-11xl);
+  }
+  .email,
+  .password {
+    font-size: var(--font-size-base);
+  }
+  .rectangleParent {
+    gap: var(--gap-3xl);
+  }
+}

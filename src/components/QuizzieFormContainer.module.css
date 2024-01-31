@@ -1,0 +1,130 @@
+.frameChild {
+  width: 193px;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 832px;
+  display: none;
+}
+.quizzie {
+  width: 131px;
+  position: relative;
+  font-size: var(--font-size-51xl);
+  font-family: var(--font-jomhuria);
+  display: inline-block;
+  z-index: 1;
+}
+.frameItem {
+  width: 176px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.12);
+  height: 38px;
+  display: none;
+}
+.dashboard {
+  height: 30px;
+  width: 110px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.rectangleGroup {
+  width: 176px;
+  height: 38px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-9xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.analytics {
+  height: 30px;
+  width: 93px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.analyticsWrapper,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.analyticsWrapper {
+  width: 120px;
+  height: 30px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.frameGroup {
+  width: 176px;
+  height: 124px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-37xl);
+}
+.createQuiz {
+  width: 119px;
+  height: 30px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.frameParent {
+  width: 176px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.frameInner,
+.logout {
+  position: relative;
+  z-index: 1;
+}
+.frameInner {
+  width: 124px;
+  height: 1px;
+}
+.logout {
+  width: 80px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.rectangleParent,
+.vectorParent {
+  width: 124px;
+  height: 53px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.rectangleParent {
+  height: 832px;
+  width: 193px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: var(--padding-mid) var(--padding-4xs) var(--padding-base)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-201xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}

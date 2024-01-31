@@ -1,0 +1,112 @@
+.imageGroupChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameChild {
+  height: 96px;
+  width: 324px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.sampleImage {
+  height: 36px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-11xl) var(--padding-53xl) var(--padding-11xl)
+    var(--padding-54xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameItem {
+  height: 96px;
+  width: 324px;
+  position: relative;
+  display: none;
+}
+.sampleImage1 {
+  height: 36px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.frameInner,
+.rectangleGroup {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-11xl) var(--padding-53xl) var(--padding-11xl)
+    var(--padding-54xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameInner {
+  height: 96px;
+  width: 324px;
+  position: relative;
+  display: none;
+}
+.sampleImage2 {
+  height: 36px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-11xl) var(--padding-53xl) var(--padding-11xl)
+    var(--padding-54xl);
+  background-color: var(--color-whitesmoke-300);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.imageGroup {
+  width: 324px;
+  height: 469px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}

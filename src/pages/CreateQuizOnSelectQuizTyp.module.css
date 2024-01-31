@@ -1,0 +1,148 @@
+.createQuizOnSelectQuizTypChild {
+  position: absolute;
+  top: 0;
+  left: 193px;
+  background-color: var(--color-whitesmoke-400);
+  width: 1087px;
+  height: 832px;
+}
+.quizAnalysis {
+  position: absolute;
+  top: 60px;
+  left: 567px;
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-royalblue);
+}
+.createQuizOnSelectQuizTypInner,
+.createQuizOnSelectQuizTypItem {
+  position: absolute;
+  top: 1001px;
+  left: 0;
+  background-color: var(--color-whitesmoke-400);
+  width: 1087px;
+  height: 832px;
+}
+.createQuizOnSelectQuizTypInner {
+  top: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 193px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 763px;
+  left: 34px;
+  max-height: 100%;
+  width: 124px;
+}
+.quizzie {
+  position: absolute;
+  top: 17px;
+  left: 31px;
+  font-size: var(--font-size-51xl);
+  font-family: var(--font-jomhuria);
+}
+.logout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+}
+.logoutWrapper {
+  position: absolute;
+  top: 786px;
+  left: 55px;
+  width: 83px;
+  height: 30px;
+}
+.groupChild,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 1280px;
+  height: 832px;
+}
+.groupChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  width: 673px;
+  height: 81px;
+}
+.quizName {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  font-weight: 500;
+}
+.rectangleParent {
+  position: absolute;
+  top: 364px;
+  left: 304px;
+  width: 673px;
+  height: 81px;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkgray);
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  width: 171px;
+  height: 46px;
+}
+.groupItem {
+  top: 1px;
+  left: 477px;
+  background-color: var(--color-white);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+.groupInner {
+  top: 0;
+  left: 206px;
+  background-color: var(--color-forestgreen-100);
+}
+.quizType {
+  top: 3px;
+  left: 0;
+  font-size: var(--font-size-6xl);
+}
+.pollType,
+.qA,
+.quizType {
+  position: absolute;
+  font-weight: 500;
+}
+.qA {
+  top: 8px;
+  left: 263px;
+  color: var(--color-white);
+}
+.pollType {
+  top: 9px;
+  left: 517px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 466px;
+  left: 316px;
+  width: 648px;
+  height: 47px;
+  text-align: center;
+  color: var(--color-darkgray);
+}
+.createQuizOnSelectQuizTyp {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}

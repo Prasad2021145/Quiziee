@@ -1,0 +1,63 @@
+.logoutTextChild {
+  height: 38px;
+  width: 176px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.12);
+  display: none;
+}
+.analytics {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray);
+  text-align: left;
+  z-index: 2;
+}
+.logoutText {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-36xl) var(--padding-9xs)
+    var(--padding-9xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-3xs);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.logoutText:hover {
+  background-color: var(--color-gainsboro);
+}
+.createQuiz {
+  width: 159px;
+  height: 30px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.vectorMarker {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .analytics,
+  .createQuiz {
+    font-size: var(--font-size-base);
+  }
+}

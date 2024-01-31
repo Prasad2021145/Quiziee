@@ -1,0 +1,74 @@
+.frameChild,
+.frameWithTextChild {
+  position: relative;
+  border-radius: var(--br-3xs);
+  display: none;
+}
+.frameChild {
+  height: 224.5px;
+  width: 332px;
+  background-color: var(--color-whitesmoke-300);
+}
+.frameWithTextChild {
+  height: 195px;
+  width: 305px;
+  object-fit: cover;
+  z-index: 0;
+}
+.rectangleGroup {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% - 1px);
+  top: 0;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background: linear-gradient(167.36deg, #000, transparent);
+  z-index: 2;
+}
+.sampleImage {
+  height: 29.8px;
+  width: 183.4px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frameWithText {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-sm) var(--padding-137xl);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-mini) var(--padding-sm) var(--padding-sm)
+    var(--padding-xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,293 @@
+.yourQuestionText1 {
+  height: 60px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.frameChild {
+  height: 112px;
+  width: 320px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.option1 {
+  height: 53px;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent,
+.splitFrameInner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-10xl)
+    var(--padding-2xl);
+  white-space: nowrap;
+}
+.splitFrameInner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.frameItem {
+  height: 112px;
+  width: 320px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.option11 {
+  height: 53px;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleGroup,
+.splitFrameChild {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleGroup {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-10xl)
+    var(--padding-2xl);
+  white-space: nowrap;
+}
+.splitFrameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.splitFrame {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-56xl);
+}
+.frameInner {
+  height: 112px;
+  width: 320px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.option12 {
+  height: 53px;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.groupButton,
+.rectangleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleContainer {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-10xl)
+    var(--padding-2xl);
+  white-space: nowrap;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.rectangleDiv {
+  height: 112px;
+  width: 320px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.option13 {
+  height: 53px;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.groupDiv,
+.splitFrameInner1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.groupDiv {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-10xl)
+    var(--padding-2xl);
+  white-space: nowrap;
+}
+.splitFrameInner1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.splitFrame1,
+.splitFrameParent {
+  display: flex;
+  align-items: flex-start;
+}
+.splitFrame1 {
+  width: 320px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-56xl);
+}
+.splitFrameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.frameChild1 {
+  height: 56px;
+  width: 320px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-forestgreen-100);
+  display: none;
+}
+.submit {
+  height: 45px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-67xl) var(--padding-8xs)
+    var(--padding-103xl);
+  background-color: var(--color-forestgreen-100);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.rectangleParent1:hover {
+  background-color: var(--color-forestgreen-200);
+}
+.firstOptionGroup,
+.submitButton,
+.yourQuestionText {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.submitButton {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.firstOptionGroup,
+.yourQuestionText {
+  flex-direction: column;
+  align-items: center;
+}
+.firstOptionGroup {
+  width: 790px;
+  gap: var(--gap-23xl);
+}
+.yourQuestionText {
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 800px) {
+  .yourQuestionText1 {
+    font-size: var(--font-size-13xl);
+  }
+  .splitFrameParent {
+    flex-wrap: wrap;
+  }
+  .submit {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourQuestionText1 {
+    font-size: var(--font-size-5xl);
+  }
+  .splitFrame,
+  .splitFrame1 {
+    gap: var(--gap-18xl);
+  }
+  .submit {
+    font-size: var(--font-size-lg);
+  }
+  .rectangleParent1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .firstOptionGroup {
+    gap: var(--gap-2xl);
+  }
+}

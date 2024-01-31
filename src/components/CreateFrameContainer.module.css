@@ -1,0 +1,114 @@
+.createFrameChild {
+  width: 193px;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 832px;
+  display: none;
+}
+.dashboard,
+.quizzie {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.quizzie {
+  margin: 0;
+  width: 171px;
+  height: 70px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.dashboard {
+  height: 30px;
+  font-weight: 600;
+}
+.dashboardFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 var(--padding-xl);
+}
+.impressionsFrameIcon {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.logout {
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.quizQuestionAnalysis {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl) 0 var(--padding-2xl);
+}
+.createFrame,
+.logoutFrame,
+.vectorFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorFrame {
+  width: 164px;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+}
+.createFrame,
+.logoutFrame {
+  text-align: left;
+  color: var(--color-darkslategray);
+}
+.logoutFrame {
+  margin: 0;
+  flex: 1;
+  gap: var(--gap-37xl);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+}
+.createFrame {
+  height: 832px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: var(--padding-mid) var(--padding-5xs) var(--padding-base)
+    var(--padding-4xs);
+  box-sizing: border-box;
+  gap: var(--gap-205xl);
+  z-index: 1;
+  font-size: var(--font-size-51xl);
+  font-family: var(--font-jomhuria);
+}
+@media screen and (max-width: 1000px) {
+  .quizzie {
+    font-size: var(--font-size-37xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .createFrame {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quizzie {
+    font-size: var(--font-size-23xl);
+  }
+  .dashboard,
+  .logout {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,66 @@
+.fRA,
+.s {
+  position: relative;
+  display: inline-block;
+}
+.fRA {
+  width: 71px;
+}
+.s {
+  height: 38px;
+  color: var(--color-red);
+}
+.questionFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+.frameChild {
+  height: 32.9px;
+  width: 188px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-forestgreen-100);
+  display: none;
+}
+.next {
+  height: 30px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.qnaQuiz,
+.rectangleParent {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  height: 33px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-forestgreen-100);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-49xl) 0 var(--padding-50xl);
+}
+.qnaQuiz {
+  width: 393px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) var(--padding-xl) var(--padding-120xl);
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

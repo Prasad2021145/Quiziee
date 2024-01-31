@@ -1,0 +1,44 @@
+.frameChild {
+  height: 96px;
+  width: 324px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  border: 2px solid var(--color-royalblue);
+  box-sizing: border-box;
+  display: none;
+}
+.sampleImage {
+  height: 72px;
+  width: 95px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleGroupIcon {
+  height: 77px;
+  width: 136px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 2px solid var(--color-royalblue);
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-4xs)
+    var(--padding-3xl);
+  background-color: var(--color-whitesmoke-300);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

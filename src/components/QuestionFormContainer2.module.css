@@ -1,0 +1,162 @@
+.q1QuestionPlace {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.incorrectPeopleChild {
+  width: 245px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  height: 89px;
+  display: none;
+}
+.createdFrame {
+  height: 45px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.peopleAttemptedThe {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  z-index: 3;
+}
+.impressionsPeopleChild,
+.incorrectPeople {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+}
+.incorrectPeople {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-2xs) var(--padding-2xs);
+  z-index: 1;
+}
+.impressionsPeopleChild {
+  width: 245px;
+  position: relative;
+  height: 89px;
+  display: none;
+}
+.createdSep {
+  height: 45px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.peopleAnsweredCorrectly {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  z-index: 3;
+}
+.impressionsPeople,
+.questionAnalysisChild {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+}
+.impressionsPeople {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-2xs) var(--padding-xs);
+  box-sizing: border-box;
+  min-width: 159px;
+  z-index: 1;
+}
+.questionAnalysisChild {
+  width: 245px;
+  position: relative;
+  height: 89px;
+  display: none;
+}
+.questionPlaceholder1 {
+  height: 45px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.questionPlaceholderWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+}
+.peopleAnsweredIncorrectly {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  z-index: 3;
+}
+.questionAnalysis {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-mini) var(--padding-xs)
+    var(--padding-7xl);
+  z-index: 1;
+}
+.correctPeople,
+.questionPlaceholder {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.correctPeople {
+  width: 805px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--gap-16xl);
+  color: var(--color-darkslategray);
+}
+.questionPlaceholder {
+  width: 828px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-14xl);
+  min-height: 168px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1000px) {
+  .createdFrame,
+  .createdSep,
+  .q1QuestionPlace,
+  .questionPlaceholder1 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .createdFrame,
+  .createdSep,
+  .q1QuestionPlace,
+  .questionPlaceholder1 {
+    font-size: var(--font-size-lg);
+  }
+  .correctPeople {
+    gap: var(--gap-mid);
+  }
+  .questionPlaceholder {
+    gap: var(--gap-base);
+  }
+}

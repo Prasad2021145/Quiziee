@@ -1,0 +1,96 @@
+.questionTextFrame {
+  width: 71px;
+  position: relative;
+  display: inline-block;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.yourQuestionText {
+  margin: 0;
+  align-self: stretch;
+  height: 142px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameGroup,
+.yourQuestion {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-items: flex-start;
+  padding: 0 var(--padding-3xs) var(--padding-12xs) var(--padding-4xs);
+  gap: var(--gap-xl);
+}
+.yourQuestion {
+  align-items: center;
+  gap: var(--gap-2xl);
+}
+.frameChild {
+  height: 32.9px;
+  width: 188px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-forestgreen-100);
+  display: none;
+}
+.next {
+  height: 30px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent {
+  height: 33px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-forestgreen-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-49xl) 0 var(--padding-50xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.pollQuizImageText,
+.questionFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+.questionFrame {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-25xl);
+  text-align: center;
+  font-size: var(--font-size-11xl);
+}
+.pollQuizImageText {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-18xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+}

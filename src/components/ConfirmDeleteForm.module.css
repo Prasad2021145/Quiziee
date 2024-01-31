@@ -1,0 +1,73 @@
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 845px;
+  height: 299px;
+}
+.groupItem {
+  background-color: var(--color-tomato);
+  width: 279px;
+  height: 43px;
+}
+.confirmDelete {
+  position: absolute;
+  top: 8px;
+  left: 71px;
+  font-weight: 600;
+}
+.groupInner,
+.rectangleGroup {
+  position: absolute;
+  width: 279px;
+  height: 43px;
+}
+.rectangleGroup {
+  top: 216px;
+  left: 97px;
+  color: var(--color-white);
+}
+.groupInner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.cancel {
+  position: absolute;
+  top: 8px;
+  left: 107px;
+  font-weight: 600;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 216px;
+  left: 466px;
+  width: 279px;
+  height: 43px;
+}
+.areYouConfirm {
+  position: absolute;
+  top: 48px;
+  left: 172px;
+  font-size: var(--font-size-20xl);
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 502px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 266px;
+  left: 218px;
+  width: 845px;
+  height: 299px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}

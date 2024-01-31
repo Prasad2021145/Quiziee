@@ -1,0 +1,194 @@
+.q2QuestionPlace {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameChild {
+  height: 89px;
+  width: 174px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.option1,
+.optionOptionOption {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.optionOptionOption {
+  height: 45px;
+  display: inline-block;
+}
+.option1 {
+  font-size: var(--font-size-sm);
+}
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-21xl) var(--padding-3xl)
+    var(--padding-lg);
+  gap: var(--gap-mid);
+  z-index: 1;
+}
+.frameItem {
+  height: 89px;
+  width: 174px;
+  position: relative;
+  display: none;
+}
+.div,
+.option2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.div {
+  height: 45px;
+  display: inline-block;
+}
+.option2 {
+  font-size: var(--font-size-sm);
+}
+.frameInner,
+.rectangleGroup {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+}
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-18xl) var(--padding-3xl)
+    var(--padding-lg);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frameInner {
+  height: 89px;
+  width: 174px;
+  position: relative;
+  display: none;
+}
+.div1,
+.option3 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.div1 {
+  height: 45px;
+  display: inline-block;
+}
+.option3 {
+  font-size: var(--font-size-sm);
+}
+.rectangleContainer,
+.rectangleDiv {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+}
+.rectangleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-18xl) var(--padding-3xl)
+    var(--padding-lg);
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 89px;
+  width: 174px;
+  position: relative;
+  display: none;
+}
+.div2,
+.option4 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.div2 {
+  height: 45px;
+  display: inline-block;
+}
+.option4 {
+  font-size: var(--font-size-sm);
+}
+.groupDiv,
+.groupOptionsGroup {
+  display: flex;
+  flex-direction: row;
+}
+.groupDiv {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-3xl) var(--padding-17xl) var(--padding-3xl)
+    var(--padding-lg);
+  box-sizing: border-box;
+  min-width: 86px;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.groupOptionsGroup {
+  width: 786px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  color: var(--color-darkslategray);
+}
+.q2QuestionPlaceHolderForParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1000px) {
+  .div,
+  .div1,
+  .div2,
+  .optionOptionOption,
+  .q2QuestionPlace {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .div1,
+  .div2,
+  .optionOptionOption,
+  .q2QuestionPlace {
+    font-size: var(--font-size-lg);
+  }
+  .q2QuestionPlaceHolderForParent {
+    gap: var(--gap-base);
+  }
+}

@@ -1,0 +1,251 @@
+.frameEmpty,
+.s {
+  position: relative;
+  display: inline-block;
+}
+.frameEmpty {
+  width: 78px;
+}
+.s {
+  height: 38px;
+  color: var(--color-red);
+}
+.questionFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+.yourQuestionText {
+  align-self: stretch;
+  height: 142px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 56.7px;
+  width: 321px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.option1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-smi);
+}
+.frameWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.frameItem {
+  height: 56.7px;
+  width: 321px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  border: 3px solid var(--color-royalblue);
+  box-sizing: border-box;
+  display: none;
+}
+.option11 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.frameContainer,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleGroup {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  border: 3px solid var(--color-royalblue);
+  padding: var(--padding-sm) var(--padding-xs) var(--padding-xs);
+}
+.frameContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.frameInner {
+  height: 56.7px;
+  width: 321px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.option12 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.groupButton,
+.rectangleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleContainer {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-smi);
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.rectangleDiv {
+  height: 56.7px;
+  width: 321px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.option13 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.frameWrapper1,
+.groupDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.groupDiv {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-smi);
+}
+.frameWrapper1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.frameParent,
+.textQuestion {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 323px;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+}
+.textQuestion {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-10xl);
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+.frameChild1 {
+  height: 32.9px;
+  width: 188px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-forestgreen-100);
+  display: none;
+}
+.submit {
+  height: 30px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.qnaQuiz,
+.rectangleParent1 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.rectangleParent1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xs) var(--padding-33xl) var(--padding-12xs)
+    var(--padding-38xl);
+  background-color: var(--color-forestgreen-100);
+  height: 33px;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  justify-content: center;
+}
+.qnaQuiz {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) var(--padding-xl) var(--padding-120xl);
+  gap: var(--gap-41xl);
+}
